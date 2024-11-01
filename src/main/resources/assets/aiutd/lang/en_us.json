@@ -1,0 +1,17 @@
+{
+  "aiutd.title": "Am I Up To Date?",
+  "aiutd.category.general": "General",
+  "aiutd.menuAlert": "Menu Alert",
+  "aiutd.menuAlert.desc": "Shows a pop-up on the \"Title Screen\".",
+  "aiutd.chatAlert": "Chat Alert",
+  "aiutd.chatAlert.desc": "Sends a chat message, on joining a world.",
+  "aiutd.platform": "Platform",
+  "aiutd.modrinth": "Modrinth",
+  "aiutd.modpackId": "Modpack ID",
+  "aiutd.localVersion": "Local Version",
+  "aiutd.localVersion.desc": "Version currently installed.",
+  "aiutd.versionAPI": "Version API",
+  "aiutd.changelogLink": "Changelog Link",
+  "aiutd.text.updateButton": "Update Available!",
+  "aiutd.text.chat": "There is an update available for your modpack!"
+}

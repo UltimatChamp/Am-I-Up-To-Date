@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "aiutd",
+  "version": "${version}",
+  "name": "Am I Up To Date?",
+  "description": "Checks for modpack updates",
+  "authors": [
+    "VesMaybeVesper"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/aiutd",
+    "sources": "https://github.com/vesmaybevesper/Am-I-Up-To-Date"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/aiutd/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "vesper.aiutd.AIUTDAmIUpToDate"
+    ],
+    "modmenu": [
+      "vesper.aiutd.AIUTDModMenuAPIImpl"
+    ]
+  },
+  "mixins": [
+    "aiutd.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.7",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "yet_another_config_lib_v3": "*"
+  }
+}
